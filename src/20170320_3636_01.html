@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<!-- 20170320_3636_하준혁 -->
+<head>
+  <meta charset="utf-8" />
+  <title>3636 하준혁</title>
+</head>
+<body>
+  <!-- 리스트와 이미지 -->
+  <p style="border-bottom:2px dashed green;">
+    3636 하준혁 리스트 & 이미지
+  </p>
+  <!-- 정의 목록 dt : 제목, dd: 내용 -->
+  <!-- 블럭요소 -->
+  <dl>
+    <dt>3636 하준혁</dt>
+    <dd>한국디지털미디어고 해킹방어과</dd>
+  </dl>
+
+  <!-- Order List 순서 있는 목록 (로마자 소문자 대문자 숫자) -->
+  <!-- 블럭요소 -->
+
+  <!-- 알파벳 A,a -->
+  <ol type="A">
+    <li>E - 비즈니스 과</li>
+    <li>디지털컨텐츠과</li>
+    <li>웹프로그래밍과</li>
+    <li>해킹방어과</li>
+  </ol>
+
+  <!-- Default type="1" 또는 아무것도 작성하지 않음 -->
+  <!-- start = "숫자" 를 통해 시작값 지정 가능 -->
+  <ol type="1" start="3">
+    <li>E - 비즈니스 과</li>
+    <li>디지털컨텐츠과</li>
+    <li>웹프로그래밍과</li>
+    <li>해킹방어과</li>
+  </ol>
+
+  <!-- 로마자 I,i -->
+  <ol type="i">
+    <li>E - 비즈니스 과</li>
+    <li>디지털컨텐츠과</li>
+    <li>웹프로그래밍과</li>
+    <li>해킹방어과</li>
+  </ol>
+
+  <!-- Unorder List list 순서 없는 목록 -->
+  <!-- Default type : disc -->
+  <!-- disc circle square -->
+  <!-- <ul type=circle></ul> 이전 표준-->
+  <ul style="list-style-type : circle">
+    <li>E - 비즈니스 과</li>
+    <li>디지털컨텐츠과</li>
+    <li>웹프로그래밍과</li>
+    <li>해킹방어과</li>
+  </ul>
+
+  <!-- 상대경로 (./ : 현재폴더 ../ : 상위폴더) -->
+  <!-- alt : 엑박 뜰 때 대신 뜨는 것 , title : 말풍선 -->
+  <img src="../img/image.gif" alt="" title="달리는 오리" />
+
+  <br />
+  <!-- 절대경로 -->
+  <marquee behavior="alternate" scrollamount="50">
+    <img src="/Users/HaJunHyeok/dimigo-wp-class/img/image.gif" />
+  </marquee>
+
+
+  <br />
+  <marquee direction="right" scrollamount="50">
+    <!-- 절대경로 -->
+    <img src="http://jhserver.dimigo.hs.kr/ani22.gif"  />
+  </marquee>
+
+  <!-- ul과 ol 혼합하여 사용 가능 -->
+
+  <ol type="1" start="3">
+    <li>E - 비즈니스 과</li>
+    <ul style="list-style-type : circle">
+      <li>E - 비즈니스 과</li>
+      <li>디지털컨텐츠과</li>
+      <li>웹프로그래밍과</li>
+      <li>해킹방어과</li>
+    </ul>
+    <li>디지털컨텐츠과</li>
+    <li>웹프로그래밍과</li>
+    <li>해킹방어과</li>
+  </ol>
+
+</body>
+</html>
