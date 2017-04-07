@@ -1,0 +1,51 @@
+/* 3636 CSS */
+
+body {
+  background-color: #DEDEDE;
+}
+
+ul {
+  /* 독립된 구역을 가진 블록요소의 마진과 패딩을 제거 */
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  /* 스크롤의 유무 */
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+li {
+  float: left;
+  border-right: 2px solid #eeeeee;
+}
+
+/* 리스트의 마지막 항목 */
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #ee008c;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #00ff00;
+
+}
+
+#login {
+  margin: 10px;
+  padding:10px;
+  border:1px red solid;
+  border-radius: 20px;
+  background-color: #ff5722;	
+}

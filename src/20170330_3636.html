@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>3636 Form</title>
+</head>
+<body>
+  <!-- form -->
+  <!-- post / get -->
+  <form name="h3636" method="get" action="./a.php">
+    <fieldset>
+      <legend>
+        3636 form
+      </legend>
+
+    ID : <input type="text" name="i01" size="10" required/> <br />
+    PW : <input type="password" name="i02" maxlength="4" required/> <br />
+    <hr />
+    1<input type="checkbox" name="i03" value="1" />
+    2<input type="checkbox" name="i03" value="2" />
+    3<input type="checkbox" name="i03" value="3" />
+
+    Male<input type="radio" name="i04" value="m" checked/>
+    Femaile<input type="radio" name="i04" value="f" />
+    <hr />
+    <!-- Placeholder 값은 넘어가지 X -->
+    <input type="email" name="email" placeholder="abc@dimigo.hs.kr" />
+    <hr />
+    <input type="file"name="i05" accept="image/jpeg" multiple />
+    <input type="number" min="1" max="100" step="1" value="1" />
+    <input type="range" min="1" max="100" step="1" value="1" />
+    <hr />
+    <input type="date" name="i06"/>
+    <!-- only opera -->
+    <input type="datetime" name="i07" />
+    <hr />
+    <select name="i08" size="1">
+      <option value="1">
+        1
+      </option>
+      <option value="2">
+        2
+      </option>
+      <option value="3" selected>
+        3
+      </option>
+      <option value="4">
+        4
+      </option>
+      <option value="5">
+        5
+      </option>
+    </select>
+    <hr />
+    <input type="submit" value="전송"  />
+    <input type="reset" value="다시"  />
+
+    </fieldset>
+
+  </form>
+  <table border="1">
+    <tr>
+      <!-- bgcolor="rgb(255,0,0)" != bgcolor="yellow"  : 브라우져마다 해석 달라짐 -->
+      <td width="100" bgcolor = "yellow">ID</td>
+      <td style="background-color:rgb(255,0,0)"><input type="text" name="a1" /></td>
+    </tr>
+    <tr>
+      <td width="100" bgcolor = "">
+        PASSWORD
+      </td>
+      <td>
+        <input style="background-color:pink; color:blue;"type="password" maxlength="8" />
+      </td>
+
+    </tr>
+    <tr>
+      <td colspan="2">
+        <input type="submit" value="로그인" />
+      </td>
+    </tr>
+  </table>
+  <input type="text" list="lit" />
+  <datalist id="lit">
+    <option value="EB"></option>
+    <option value="DC" selected></option>
+    <option value="WP"></option>
+    <option value="HD"></option>
+  </datalist>
+  <a href="http://jhserver.dimigo.hs.kr/thelove.mp4" target="_blank">멀티미디어</a>
+</body>
+</html>

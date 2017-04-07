@@ -1,0 +1,16 @@
+/* 3636 CSS */
+body {
+  background-color: lightblue;
+  text-decoration: underline;
+}
+
+#b02 {
+  margin: 10px;
+  margin-left: 50px;
+  background-color: green;
+}
+
+#b03 {
+  margin: 20px 50px 10px 30px;
+  background-color: pink;
+}

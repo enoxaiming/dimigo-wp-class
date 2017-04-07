@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>3636 Style</title>
+  <meta charset="utf-8" />
+
+  <!--외부 스타일시트 정의 -->
+  <link rel="stylesheet" href="../css/h3636css.css" />
+
+  <style>
+  /* 태그선택자 주석 */
+  /* 선택자(태그, 공용*, 클래스. ID#)*/
+  p{
+    /*선언문*/
+    border-bottom: 2px dashed green;
+
+    border-color: blue;
+    border-style: solid;
+    border-width: 2px;
+  }
+  *{
+    /* 모든 태그 적용 */
+    margin: 0px; /* 사이 간격 */
+    /*
+    margin : 0px 0px 0px 0px; 위 오른쪽 아래 왼쪽 => 시계방향
+    margin : 0px 0px; 위아래 좌우
+    margin-top : 0px;
+    margin-left : 0px;
+    */
+    padding: 20px; /*문서 내 내용이 시작하는 위치 */
+  }
+  /* 클래스선택자 - 중복사용 */
+  .a01{
+    /*글자색*/
+    color: blue;
+  }
+  /* ID선택자 - 단일사용 */
+  #b01{
+    color: green;
+  }
+  </style>
+</head>
+<body>
+  <h2 class="a01"> 3636 Cascading Style Sheet (CSS) </h2>
+  <!-- 인라인 스타일시트 -->
+  <!-- 내부 스타일시트 -->
+  <!-- 외부 스타일시트 -->
+  <!-- 가장 마지막에 써있는것이 적용된다 : 인터프리터언어 특징 -->
+
+  <p style="border-bottom:2px red solid;">
+    3636 하준혁
+  </p>
+  <p id="b01">3636 하준혁</p>
+  <div id="b02">
+    div1
+  </div>
+  <div id="b03">
+    div2
+  </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+<head>
+  <!-- 3636 하준혁 -->
+  <meta charset="utf-8" />
+  <title>3636 하준혁 웹플</title>
+</head>
+<body>
+  <form method="post" action="http://jhserver.dimigo.hs.kr/2017/test02h.php">
+  <table border="1" width=100%>
+    <tr>
+    <td rowspan="4"><img src="http://jhserver.dimigo.hs.kr/dimigo.png"/></td>
+    <td colspan="4">3636 하준혁</td>
+    <td style="background-color:#3636FF">
+      <input type="hidden" name="hn" value="3636" />
+    </td>
+  </tr>
+  <tr>
+    <td>학번</td>
+    <td><input type="text" name="c_id" maxlength="4" required /></td>
+    <td>이름</td>
+    <td><input type="text" name="c_name" required /></td>
+    <td rowspan="3">
+      <input type="submit" value="전송" />
+      <input type="reset" value="취소" />
+    </td>
+  </tr>
+  <tr>
+    <td>비밀번호</td>
+    <td><input type="password" name="pw" maxlength="8" required /></td>
+    <td>구분</td>
+    <td>
+      <input type="radio" name="gu" value="학생" checked /> 학생
+      <input type="radio" name="gu" value="일반" /> 일반
+    </td>
+  </tr>
+  <tr>
+    <td>학과</td>
+    <td colspan="3">
+      <select size="1" name="dept">
+      <option value="EB">이비즈니스과</option>
+      <option value="DC">디지털컨텐츠과</option>
+      <option value="WP">웹프로그래밍과</option>
+      <option value="HD" selected>해킹방어과</option>
+    </select>
+  </td>
+  </tr>
+  <tr>
+    <td colspan="6">
+      <img src="http://jhserver.dimigo.hs.kr/ques.jpg" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="6" style="background-color:#ee008c; text-align:center;">
+      꿈 열정 나눔  <a target="_blank" href="http://www.dimigo.hs.kr">한국디지털미디어고등학교</a>
+    </td>
+  </tr>
+  </table>
+  </form>
+</body>
+</html>
