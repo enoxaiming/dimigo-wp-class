@@ -1,0 +1,81 @@
+/*3636 하준혁*/
+body{
+
+}
+#wrap3636{
+    position: relative;
+    width: 700px;
+    height: 200px;
+    background-color: #675c47;
+    border: 1px solid salmon;
+    padding: 20px;
+}
+#login3636{
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    padding: 5px;
+    background-color: #DCDCDC;
+    top: 20px;
+    left: 750px;
+}
+#side13636{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1px dashed blue;
+    text-align: center;
+    float: left;
+    margin: 6px;
+    background-color: gray;
+}
+#side23636{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1px dashed red;
+    text-align: center;
+    float: left;
+    margin: 6px;
+    background-color: gray;
+}
+#side33636{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1px dashed green;
+    text-align: center;
+    float: left;
+    margin: 6px;
+    background-color: gray;
+}
+#side43636{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    border: 1px dashed yellow;
+    text-align: center;
+    background-image: url(http://jhserver.dimigo.hs.kr/dimigo.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 6px;
+    background-color: gray;
+}
+#foot3636{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    margin: 8px;
+}
+.u_bar3636{
+    border-bottom: 1px solid purple;
+    font-size: 10pt;
+} 
+.num3636{
+    color: black;
+    font-size: 30pt;
+    font-weight: bold;
+}

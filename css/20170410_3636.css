@@ -1,0 +1,77 @@
+/*20170410_3636*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 짝수번째 행 */
+tr:nth-child(even) {
+  background-color: #ee008c;
+}
+
+div {
+
+}
+
+#d1 {
+  width: 800px;
+  height: 1200px;
+  background-color: #00ff00;
+  background-image: url(http://jhserver.dimigo.hs.kr/dimigo.png);
+  background-repeat: no-repeat;
+  /* repeat-x repeat-y no-repeat */
+  background-position: 0% 50%;
+  /* left  top */
+  /*background:yellow url() no-repeat; */
+  /*속기법*/
+  border : 2px solid red;
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+
+  /*
+  외부 여백 x
+  margin: 0px 0px 0px 0px;
+  */
+
+  margin: 10px 10px 10px 10px;
+
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+#d2 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position:absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#d3 {
+  background-color: #ee008c;
+  float: left;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+#d4 {
+  background-color: #ee008c;
+  float: left;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+#d5 {
+  clear: both;
+  /* float 해제하는 역할 = clear */
+  background: #000;
+  width: 600px;
+  height: 50px;
+  margin: 20px;
+  color: white;
+}
