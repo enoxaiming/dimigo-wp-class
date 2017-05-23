@@ -1,0 +1,147 @@
+/* 3636 하준혁 */
+#wrap3636 {
+    width: 900px;
+    height: 850px;
+    background-color: #675c47;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    position: relative;
+}
+
+#header3636 {
+    height: 120px;
+    background-color: #4E342E;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#header3636:hover {
+    background-color: white;
+    background-image: url(http://jhserver.dimigo.hs.kr/dimigo.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#login3636 {
+    width: 450px;
+    height: 50px;
+    background-color: #dddddd;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+}
+
+#side3636 {
+    width: 380px;
+    height: 50px;
+    background-color: #333333;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    float: right;
+}
+
+#content3636 {
+    height: 500px;
+    background-image: url(http://jhserver.dimigo.hs.kr/school3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+#footer3636 {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    overflow: auto;
+    color: white;
+    font-size: 9pt;
+}
+
+address {
+    font-size: 9pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+}
+
+#popup3636 {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px #111111 solid;
+}
+
+#abs3636 {
+    position: absolute;
+    width: 120px;
+    height: 850px;
+    background-color: lightblue;
+    padding: 10px;
+    top: 0px;
+    left: 940px;
+}
+
+.input3636 {
+    outline: none;
+    border: none;
+    background-color: #dddddd;
+    border-bottom: 2px dashed #ee008c;
+}
+
+.btn3636:hover {
+    outline: none;
+    border: none;
+    background-color: #ee008c;
+    color: white;
+}
+
+li {
+    float: left;
+    border-right: 2px solid #eeeeee;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #ee008c;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li:last-child {
+  border-right: none;
+  background-color: #ee3636;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+}
+
+a{
+    font-size: 10pt;
+    font-weight: bold;
+}
+

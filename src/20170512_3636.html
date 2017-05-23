@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        caption{
+            font-style: italic;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px dashed gray;
+            text-align: center;
+            padding: 5px;
+        }
+        tr:nth-child(even) {
+            background-color: #DDDDDD;
+        }
+        #h1 {
+            background-color: red;
+            margin: 10px;
+            width: 300px;
+            padding: 20px;
+            border: 5px black solid;
+        }
+
+        #h1:hover {
+            animation-name: ex01;
+            animation-duration: 4s;
+        }
+
+        @keyframes ex01 {
+            from{
+                transform: rotate(0deg);
+            }
+            to {
+                transform:rotate(180deg);
+            }
+        }
+
+        #h2 {
+            background-color: blue;
+            margin: 10px;
+            width: 300px;
+            background-image: url('http://jhserver.dimigo.hs.kr/dimigo2.png');
+            height: 120px;
+            background-repeat: no-repeat;
+            background-position: 20px 10px;
+            padding-left: 140px;
+        }
+    </style>
+    <script>
+        //한줄주석
+        /*여러줄 주석*/
+        var a = 1;
+        var b = 1;
+
+        document.write(a+b);
+        alert(a);
+    </script>
+</head>
+<body>
+    <table>
+        <caption>표 제목</caption>
+        <tr><th>h1</th><th>h2</th></tr>
+        <tr><th>1</th><th>2</th></tr>
+        <tr><th>1</th><th>2</th></tr>
+        <tr><th>1</th><th>2</th></tr>
+        <tr><th>1</th><th>2</th></tr>
+        <tr><th>1</th><th>2</th></tr>
+    </table>
+    <div id="h1">
+        한국디지털미디어고등학교
+    </div>
+    <div id="h2">
+        한국디지털미디어고등학교
+    </div>
+</body>
+</html>
