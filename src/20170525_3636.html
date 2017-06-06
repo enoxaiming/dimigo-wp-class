@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>3636 자바스크립트</title>
+        <meta charset="utf-8">
+        <script>
+        // 자바스크립트
+        /* 주석 */
+        // 변수 = 전역 지역 정적
+        // 자료형 => 숫자 문자 논리 객체 함수
+        /*
+        형변환 자유로움
+        대소문자 구분
+        변수 이름은 문자 또는 _로만 시작가능
+        숫자는 포함할 수 O, 특수문자는 x
+        a != A
+        */
+
+        var a = 0;
+        document.write(a);
+        document.write(typeof(a));
+        document.write("<hr>");
+        a = "Hello JS";
+        document.write(a);
+        document.write(typeof(a));
+
+        var scope = "global";
+        function f1() {
+            var scope = "local";
+            document.write(scope);
+        }
+
+        function f2() {
+            //함수 내에서 선언된 지역변수가 우선
+            //함수 내에서의 변수는 위치에 관계 없음.
+            // 전역변수 scope가 아님
+            alert(scope);
+
+            var scope = "local";
+            alert(scope);
+        }
+        f1();
+        document.write(scope);
+
+        f2();
+
+        document.write("<hr>");
+
+        //연산자
+        document.write(1+1);
+        document.write("<hr>");
+
+        document.write(1+"1");
+        document.write("<hr>");
+
+        document.write("1"+1);
+        document.write("<hr>");
+
+        document.write("1"+"1");
+        document.write("<hr>");
+
+        //1+2+3+"HD" vs "HD"+1+2+3
+
+        document.write(1+2+3+"HD");
+        document.write("HD"+1+2+3);
+
+        //관계연산자
+        document.write(1<5);
+        document.write("1"<5);
+        document.write("one"<5);
+        document.write("1" < "5");
+        document.write("11"<"5"); //아스키코드
+        </script>
+    </head>
+    <body>
+        3636 자바스크립트
+    </body>
+</html>

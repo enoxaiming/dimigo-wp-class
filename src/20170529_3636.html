@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>3636 하준혁</title>
+    <meta charset="utf-8">
+    <script>
+        function f3636() {
+
+            //va = [[],[],[]];
+            var i_num = document.getElementById("i3636").value;
+            i_num=parseInt(i_num);
+            var t = i_num; //5
+            i_num = i_num + 1; //6
+            var va = new Array(i_num);
+            for (i = 0; i < i_num; i++) {
+                va[i] = new Array(i_num);
+            }
+
+            i = 1;
+            j = 3;
+
+            for (k = 1; k <= (i_num-1)*(i_num-1); k++) {
+                va[i][j] = k;
+                if (k % t == 0) {
+                    i += 1;
+                }
+                else {
+                    i -= 1;
+                    j += 1;
+
+                    if (i < 1) {
+                        i = t;
+                    }
+                    if (j > t) {
+                        j = 1;
+                    }
+                }
+            }
+            document.write("<table border=1 width=200>");
+            for (i = 1; i < i_num; i++) {
+                document.write("<tr>");
+                for (j = 1; j < i_num; j++) {
+                    document.write("<td>" + va[i][j] + "</td>");
+                }
+                document.write("</tr>");
+            }
+            document.write("</table>");
+        }
+    </script>
+</head>
+
+<body>
+    <p style="border-top : solid 5px red;">3636 하준혁</p>
+    <p>홀수를 입력하세요!</p>
+    <input type="text" id="i3636">
+    <button onclick="f3636();">확인</button>
+</body>
+
+</html>

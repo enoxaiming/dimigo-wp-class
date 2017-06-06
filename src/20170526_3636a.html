@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+    <!-- 20170526_3636a.html-->
+    <head>
+        <meta charset="utf-8">
+        <title>3636 하준혁</title>
+        <script>
+            //관계연산자 > < >= <= == === != !==
+            document.write(1 == "1"); //true 값
+            document.write("<hr>");
+            document.write(1 === "1"); //false 자료형까지 비교
+            document.write("<hr>");
+            document.write(1 !== "1"); //true
+            document.write("<hr>");
+            //논리연산자 && || !
+            document.write(1<3 && 3<5);
+            document.write("<hr>");
+            if(1<3 && 3<5) {
+                alert("hello");
+            }
+            //증감연산자
+            //a++ a-- ++a --a
+            //후위연산 - 대입하고 연산
+            //전위연산 - 연산하고 대입
+            a = 1;
+            k = a++;
+            document.write(k);
+            document.write("<hr>");
+            //대입연산자 += -= *= /= %=
+            a+=1;
+            a%=2;
+            //기타연산자 in instanceof typeof
+            var point = { x:1 , y:1 }; //객체
+            var a = [1,2,3]; //배열
+            var d = new Date(); //객체
+            document.write("기타연산자" + "3636 하준혁");
+            document.write("<hr>");
+            var p1 = "x" in point;
+            document.write(p1);
+            document.write("<hr>");
+            var p2 = "valueOf" in point;
+            document.write(p2);
+            document.write("<hr>");
+            document.write(d instanceof Date);
+            document.write("<hr>");
+
+            document.write("<hr>");
+            document.write(d instanceof Object);
+            document.write("<hr>");
+            document.write(typeof d);
+            document.write("<hr>");
+            document.write(typeof 1);
+            document.write("<hr>");
+            document.write(typeof "1");
+            document.write("<hr>");
+            document.write(typeof a);
+            document.write("<hr>");
+            document.write(typeof function f() {});
+            document.write("<hr>");
+
+            //삼항연산자
+
+            //(조건문) ? ture 실행문 : false 실행문
+
+            3<5 ? alert("T") : alert("F");
+
+            //비트연산자 &(and) |(or) ^(xor) >> <<(shift) !(not)
+            b1=3;
+            b2 = 5;
+            document.write(b1&b2);
+            document.write("<hr>");
+            document.write(b1<<2);
+
+            tmp = b1;
+            b1 = b2;
+            b2 = tmp;
+            document.write(b1+","+b2);
+            document.write("<hr>");
+
+            b1 = b1^b2;
+            b2 = b1^b2;
+            b1 = b1^b2;
+
+            document.write(b1 + ". " + b2);
+            document.write("<hr>");
+
+            //제어문
+            //if / else if / else
+            j=26;
+            if(j<10) {
+                document.write("F");
+            }
+            else if(j<30) {
+                document.write("pass");
+            }
+            else {
+                document.write("no");
+            }
+            //for(초기값;조건문;증감식) {실행문}
+            for(i=0; i<10; i++) {
+                if(i%2 == 0) {
+                    continue;
+                }
+                if(i == 7) {
+                    break;
+                }
+                document.write(i+"<br>");
+            }
+            //while(조건문) {실행문}
+            document.write("while<hr>")
+            k = 0;
+            while(k<0) {
+                document.write(k+"<br>");
+                k= k+1;
+            }
+            //do{실행문} while(조건문)
+            document.write("do while<hr>")
+            k = 0;
+            do {
+                document.write(k+"<br>");
+                k= k+1;
+            }while(k<0)
+            //continue vs break
+
+            function f3636() {
+                sum = 0;
+                var t1 = h3636.h36.value;
+                var t2 = document.getElementById("h6").value;
+                var t3 = document.forms["h3636"]["h36"].value;
+                for(i = 0; i<=parseInt(t1); i++) {
+                    sum += i;
+                }
+                alert(t2+"까지의 합은" + sum + "입니다.");
+            }
+        </script>
+    </head>
+    <body>
+        <p>20170526 3636</p>
+
+        <form name="h3636">
+            input:<input type="text" name="h36" id="h6">
+            <button onclick="f3636();">확인</button>
+        </form>
+    </body>
+</html>
